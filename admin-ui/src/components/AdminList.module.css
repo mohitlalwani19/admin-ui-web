@@ -1,0 +1,22 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .table th {
+    font-weight: bold;
+  }
+  
+  .table td {
+    border-bottom: 1px solid darkgray;
+  }
+  
+  .table .selected {
+    background-color: skyblue;
+  }

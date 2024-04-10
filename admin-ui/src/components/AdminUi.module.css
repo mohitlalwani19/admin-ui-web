@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.search_input {
+    width: 90vw;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 1vh;
+}
+
+.delete_selected_action_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+.btn_delete_selected {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 0.5rem 0.5rem;
+    background-color: red;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+  
+.btn_delete_selected:disabled {
+    color: darkgray;
+    background-color: lightgray;
+    border: none;
+    outline: 1px solid lightgray;
+}
+
+.btn_delete_selected:disabled:hover {
+    cursor: not-allowed;
+}

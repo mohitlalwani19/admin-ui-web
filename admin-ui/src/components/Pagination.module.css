@@ -1,0 +1,44 @@
+.pagination {
+  padding: 1rem;
+  background-color: white;
+}
+
+.page_btn,
+.page_btn_skip
+ {
+  color: white;
+  background-color: blue;
+  border: none;
+  border-radius: 1rem;
+  min-height:2rem;
+  padding: 0.3rem 0.8rem;
+  margin: 0 0.2rem;
+  cursor: pointer;
+}
+
+.page_btn:hover,
+.page_btn_skip:hover:not(:disabled){
+  outline: 1px solid blue;
+  color: blue;
+  background-color: white;
+}
+
+.page_btn_skip_active {
+  outline: 1px solid blue;
+  color: blue;
+  background-color: white;
+  border: none;
+  border-radius: 1rem;
+  min-height:2rem;
+  padding: 0.3rem 0.8rem;
+  margin: 0 0.2rem;
+  cursor: pointer;
+}
+
+.page_btn_skip:disabled {
+  color: darkgray;
+  border: none;
+  outline: 1px solid lightgray;
+  background-color: lightgray;
+  cursor: not-allowed;
+}
